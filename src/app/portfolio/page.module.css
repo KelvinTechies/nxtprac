@@ -1,0 +1,38 @@
+.mainTitle {
+  font-size: 100px;
+}
+.selectTitle {
+  margin: 20px 0px;
+}
+.item {
+  border: 5px solid #bbb;
+  border-radius: 5px;
+  width: 300px;
+  position: relative;
+  height: 400px;
+}
+.items {
+  display: flex;
+  gap: 20px;
+  margin-top: 1rem;
+}
+.title {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.item:nth-child(1) {
+  background: url("/ig.png");
+}
+.item:nth-child(2) {
+  background: url("/vercel.svg");
+}
+.item:nth-child(3) {
+  background: url("/next.svg");
+}
+
+.item:hover .title {
+  color: #5322b8;
+}
